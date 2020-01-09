@@ -10,10 +10,12 @@ header, #about, #work, #contact {
 
 .half-width {
     width: 50%;
+    float: left;
 }
 
 .third-width {
     width: 33%;
+    float: left;
 }
 
 h3 {
