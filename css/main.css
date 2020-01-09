@@ -1,0 +1,56 @@
+/*** BASE STYLES ***/
+header, #about, #work, #contact {
+    height: 55vh;
+    padding-top: 50px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.third-width {
+    width: 33%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+/*** HEADER ***/
+header {
+
+}
+
+#kristi {
+    color: #E90185;
+}
+#delfino {
+    color: #FFBB0E;
+}
+
+nav {
+
+}
+
+/*** ABOUT ***/
+
+#about {
+    background-color: #FFBB0E;
+    color: #fff;
+}
+
+/*** WORK ***/
+
+
+
+/*** CONTACT ***/
+
+#contact {
+    background-color: #E90185;
+    color: #fff;
+}
