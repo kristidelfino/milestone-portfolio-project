@@ -1,7 +1,18 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Slab', serif;
+font-family: 'Josefin Sans', sans-serif; */
+
 /*** BASE STYLES ***/
+
+body {
+    margin: 0 auto;
+    color: #272838;
+    font-family: 'Josefin Slab', serif;
+}
+
 header, #about, #work, #contact {
     height: 55vh;
-    padding-top: 50px;
+    padding: 50px 50px;
 }
 
 .full-width {
@@ -30,24 +41,27 @@ header {
 
 #kristi {
     color: #E90185;
+    font-family: 'Abril Fatface', cursive;
 }
 #delfino {
     color: #FFBB0E;
+    font-family: 'Abril Fatface', cursive;
 }
 
 nav {
 
 }
 
-/*** ABOUT ***/
 
-#about {
+
+/*** WORK ***/
+
+#work {
     background-color: #FFBB0E;
     color: #fff;
 }
 
-/*** WORK ***/
-
+/*** ABOUT ***/
 
 
 /*** CONTACT ***/
@@ -55,4 +69,9 @@ nav {
 #contact {
     background-color: #E90185;
     color: #fff;
+}
+
+/*** FOOTER ***/
+footer {
+    text-align: center;
 }
