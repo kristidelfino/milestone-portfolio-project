@@ -7,36 +7,58 @@ font-family: 'Josefin Sans', sans-serif; */
 body {
     margin: 0 auto;
     color: #272838;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 header, #about, #work, #contact {
     height: 55vh;
-    padding: 50px 50px;
+    padding: 4em;
 }
 
 .full-width {
     width: 100%;
+    margin: 0 auto;
 }
 
 .half-width {
     width: 50%;
     float: left;
+    margin: 0 auto;
 }
 
 .third-width {
     width: 33%;
     float: left;
+    margin: 0 auto;
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
 h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 2rem;
+}
+h4 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
 /*** HEADER ***/
-header {
+header a {
+    color: #E90185;
+}
 
+header a:hover {
+    color: #FFBB0E;
 }
 
 #kristi {
@@ -49,7 +71,17 @@ header {
 }
 
 nav {
+    float: right;
+    /* padding-bottom: 50px; */
+}
 
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    padding-left: 20px; 
 }
 
 
@@ -62,13 +94,34 @@ nav {
 }
 
 /*** ABOUT ***/
+#about {
+    text-align: center;
+}
 
+#about img {
+    width: 40%;
+}
 
 /*** CONTACT ***/
 
 #contact {
     background-color: #E90185;
     color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact a {
+    color: #fff;
+}
+
+#contact a:hover {
+    color: #FFBB0E;
+}
+
+#contact i {
+    font-size: 2rem;
+    padding-left: 1rem;
 }
 
 /*** FOOTER ***/
