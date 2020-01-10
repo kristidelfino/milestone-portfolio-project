@@ -25,7 +25,7 @@ header, #about, #work, #contact {
 }
 
 .half-width {
-    width: 50%;
+    width: 47%;
     float: left;
     margin: 0 auto;
 }
@@ -84,22 +84,43 @@ nav ul li a {
     padding-left: 20px; 
 }
 
-
+header h1 {
+    clear: both;
+    padding-top: 1.5em;
+}
 
 /*** WORK ***/
 
 #work {
     background-color: #FFBB0E;
     color: #fff;
+    height: 800px;
+    line-height: 2em;
 }
+
 
 /*** ABOUT ***/
 #about {
     text-align: center;
+    line-height: 2em;
 }
 
 #about img {
     width: 40%;
+}
+
+.row {
+    clear: both;
+}
+
+.left {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.right {
+    text-align: left;
+    padding-left: 2em;
 }
 
 /*** CONTACT ***/
