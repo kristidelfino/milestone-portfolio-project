@@ -36,6 +36,17 @@ header, #about, #work, #contact {
     margin: 0 auto;
 }
 
+.left {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.right {
+    text-align: left;
+    padding-left: 2em;
+}
+
+
 h1 {
     font-size: 3.5rem;
 }
@@ -101,7 +112,6 @@ header h1 {
 
 /*** ABOUT ***/
 #about {
-    text-align: center;
     line-height: 2em;
 }
 
@@ -113,16 +123,9 @@ header h1 {
     clear: both;
 }
 
-.left {
-    text-align: right;
-    padding-right: 2em;
+#about .left {
+    text-align: center;
 }
-
-.right {
-    text-align: left;
-    padding-left: 2em;
-}
-
 /*** CONTACT ***/
 
 #contact {
