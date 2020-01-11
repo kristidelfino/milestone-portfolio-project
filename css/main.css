@@ -15,7 +15,6 @@ a {
 }
 
 header, #about, #work, #contact {
-    /* height: 55vh; */
     padding: 4em;
 }
 
@@ -84,7 +83,6 @@ header a:hover {
 
 nav {
     float: right;
-    /* padding-bottom: 50px; */
 }
 
 nav ul li {
@@ -106,7 +104,6 @@ header h1 {
 #work {
     background-color: #FFBB0E;
     color: #fff;
-    /* height: 800px; */
     line-height: 2em;
 }
 
