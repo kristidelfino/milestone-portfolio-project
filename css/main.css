@@ -15,13 +15,14 @@ a {
 }
 
 header, #about, #work, #contact {
-    height: 55vh;
+    /* height: 55vh; */
     padding: 4em;
 }
 
 .full-width {
     width: 100%;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .half-width {
@@ -105,7 +106,7 @@ header h1 {
 #work {
     background-color: #FFBB0E;
     color: #fff;
-    height: 800px;
+    /* height: 800px; */
     line-height: 2em;
 }
 
