@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kristi Delfino | Web Developer</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Josefin+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-name">
+                <a href="../index.html"><span id="kristi">Kristi</span> <span id="delfino">Delfino</span></a>
+            </div>
+            <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
+            <ul class="main-nav" id="js-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects/index.html">My Work</a></li>
+                <li><a href="../services/index.html">Services</a></li>
+                <li><a href="../about/index.html">About Me</a></li>
+                <li><a href="../contact/index.html">Contact Me</a></li>
+            </ul>
+        </nav>
+     </header>
+     <section id="hero-secondary">
+         <h1>About Me</h1>
+     </section>
+
+     <main id="about-me-page">
+         <section id="about-me">
+             <div class="about-me-container">
+                <div class="about-me-images">
+                    <img src="../img/bio_chinrest.jpg" alt="me being silly" class="bio-image">
+                </div>
+                <div class="about-me-text">
+                    <h4>So, you want to know more about me?</h4>
+                    <p>Well, let me tell you, it's a doozy! <span class="smalltext">It's really not...</span></p>
+                    <p>I started my professional life as a teacher. I've taught Spanish and French to hundreds, maybe even thousands, of students. And while I enjoyed the job, something never felt quite right. <span class="wisdom">As someone once put it, it was like wearing a shoe that didn't quite fit.</span> Sure, you could bear it for a while, but eventually it starts to chafe.</p>
+                    <p>So, after 11 years in the classroom, I decided to hang up the ol' apple* (why is that a teacher thing, anyway?) and try my hand at learning new skills. I signed up for <a href="http://www.skillcrush.com" target="_blank">Skillcrush</a>, and here I am!
+                    <span class="smalltext">*I actually do still teach college courses part time. What can I say, I enjoy it!</span></p>
+                    <p>But don't think this is something completely new! I grew up among that first generation of full-time internet users. I coded a billion websites way back in the old days of Geocities and Angelfire. The fact that I fell into it again as an adult just feels like I've come full circle! Like I've landed home.</p>
+                    <p>Still feel like you want to know more? Click on this handy random fact generator I coded up for just such a situation!</p>
+                    <hr>
+                    <div class="random-fact-generator">
+                        <div class="random-fact-generator-text">
+                            <h4 id="randomFactsAboutMe"></h4>
+                        </div>
+                        <div class="random-fact-generator-button">
+                            <button id="factButton" class="button">Give me a fact!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-me-skills">
+                <h3>Skills</h3>
+                <div class="about-me-skills-languages">
+                    <h5>Human Languages</h5>
+                    <ul>
+                        <li>English (native)</li>
+                        <li>Spanish (fluent)</li>
+                        <li>French (fluent)</li>
+                    </ul>
+                </div>
+                <div class="about-me-skills-tech">
+                    <h5>Computer Languages</h5>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript (learning)</li>
+                        <li>JQuery (learning)</li>
+                        <li>Python (learning)</li>
+                    </ul>
+                </div>
+                <div class="about-me-skills-soft">
+                    <h5>"Soft" Skills</h5>
+                    <ul>
+                        <li>Collaboration</li>
+                        <li>Crosscultural communication</li>
+                        <li>Problem solving</li>
+                        <li>Multitasking</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-me-cta">
+                <h4>So, what do you think? Think we'd work great together? <a href="../contact/index.html">Reach out</a> and let's collaborate on your next project!</h4>
+            </div>
+         </section>
+     </main>
+
+
+     <footer>
+            <section id="contact">
+                <div class="flex-container">
+                    <h3>Contact Me</h3>
+                    <div class="contact-content">
+                        <h4>Hire me</h4>
+                        <p><i class="fas fa-mobile-alt"></i> (973) 619-9121</p>
+                        <p><i class="far fa-envelope"></i> <a href="mailto:kristi.delfino@gmail.com">kristi.delfino@gmail.com</a></p>
+                    </div>
+                    <div class="contact-content">
+                        <h4>Follow me</h4>
+                        <a href="https://github.com/kristidelfino" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kristidelfino/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="http://www.twitter.com/kristidelfino"  target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="contact-content">
+                        <h4>Let's meet!</h4>
+                        <p>If you're in northern New Jersey, let's get together for a coffee and a chat!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="copyright">
+                <p>Copyright 2020 | Kristi Delfino</p>
+            </section>
+        </footer>
+        
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+                    
+        navBarToggle.addEventListener('click', function () {        
+             mainNav.classList.toggle('active');
+        });
+
+        var randomFactGenerator = {};
+        var randomFactsArray = ["I have a collection of pigs (stuffed and ceramic). Several stuffed pigs sing!", "My favorite color is orange/yellow/red. I can't pick one!", "I live for chocolate.", "I have two rescue doggos.", "My favorite TV show is Bob's Burgers", "I like to dance at weddings but only with my sisters", "Did I mention that I like chocolate?"];
+        var factButton = document.getElementById("factButton");
+        var randomFactsAboutMe = document.getElementById("randomFactsAboutMe");
+        var displayFact = function()
+        {  
+            var randomNumber = Math.random();
+            var randomNumberArray = randomNumber * randomFactsArray.length;
+            var randomIndex = Math.floor(randomNumberArray);
+            var randomFact = randomFactsArray[randomIndex];
+            randomFactsAboutMe.innerText = randomFact;
+        }
+        factButton.addEventListener("click", displayFact);
+    </script>
+    </body>
+    </html>

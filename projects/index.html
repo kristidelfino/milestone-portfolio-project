@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kristi Delfino | Web Developer</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-name">
+                <a href="../index.html"><span id="kristi">Kristi</span> <span id="delfino">Delfino</span></a>
+            </div>
+            <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
+            <ul class="main-nav" id="js-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../projects/index.html">My Work</a></li>
+                <li><a href="../services/index.html">Services</a></li>
+                <li><a href="../about/index.html">About Me</a></li>
+                <li><a href="../contact/index.html">Contact Me</a></li>
+            </ul>
+        </nav>
+     </header>
+     <section id="hero-secondary">
+         <h1>My Work</h1>
+     </section>
+    
+    <main id="projects-page">
+        <section id="projects-intro">
+            <p>This site will reflect my most recent projects, as well as a brief description.</p>
+        </section>
+        <section id="projects-main">
+            <div class="projects-container">
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <a href="fylo/index.html" target="_blank"><img src="../img/fylo-thumbnail.jpg" alt="Fylo"></a>
+                    </div>
+                    <div class="project-text">
+                        <p>The <strong>Fylo</strong> project is a one-page landing site designed by <a href="http://frontendmentor.com" target="_blank">Frontend Mentor</a> as a coding challenge. I coded this mobile-first, with full responsiveness at tablet and desktop sizes. </p>
+                        <p><strong>Completed: </strong>May 2020</p>
+                    </div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <a href="accelerate/index.html" target="_blank"><img src="../img/accelerate-thumbnail.jpg" alt="accelerate"></a>
+                    </div>
+                    <div class="project-text">
+                        <p><strong>Accelerate</strong> is a website for an imaginary marketing company. It's a Wordpress site and features a custom theme and custom post and page types. I added responsive breakpoints so that it's mobile-friendly.</p>
+                        <p><strong>Completed: </strong>April 2020</p>
+                    </div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <a href="unplugged/index.html" target="_blank"><img src="../img/unplugged-thumbnail.jpg" alt="unplugged"></a>
+                    </div>
+                    <div class="project-text">
+                        <p><strong>Unplugged</strong> is a fictional nature retreat. This Wordpress site is coded with HTML and CSS and is fully responsive.</p>
+                        <p><strong>Completed: </strong>February 2020</p>
+                    </div>
+                </div>
+                <div class="project-wrapper">
+                    <div class="project-image">
+                        <a href="roguepickings/index.html" target="_blank"><img src="../img/rogue-pickings-thumbnail.png" alt="unplugged"></a>
+                    </div>
+                    <div class="project-text">
+                        <p><strong>Rogue Pickings</strong> features a one-page design. Using only a Photoshop file as a guide, I coded this with HTML and CSS. It is fully responsive accross devices.</p>
+                        <p><strong>Completed: </strong>January 2020</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section id="contact">
+            <div class="flex-container">
+                <h3>Contact Me</h3>
+                <div class="contact-content">
+                    <h4>Hire me</h4>
+                    <p><i class="fas fa-mobile-alt"></i> (973) 619-9121</p>
+                    <p><i class="far fa-envelope"></i> <a href="mailto:kristi.delfino@gmail.com">kristi.delfino@gmail.com</a></p>
+                </div>
+                <div class="contact-content">
+                    <h4>Follow me</h4>
+                    <a href="https://github.com/kristidelfino" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kristidelfino/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="http://www.twitter.com/kristidelfino"  target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="contact-content">
+                    <h4>Let's meet!</h4>
+                    <p>If you're in northern New Jersey, let's get together for a coffee and a chat!</p>
+                </div>
+            </div>
+        </section>
+        <section id="copyright">
+            <p>Copyright 2020 | Kristi Delfino</p>
+        </section>
+    </footer>
+    
+<script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+                
+    navBarToggle.addEventListener('click', function () {        
+         mainNav.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

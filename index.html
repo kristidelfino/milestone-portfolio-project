@@ -11,89 +11,145 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="header-main">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
+            <ul class="main-nav" id="js-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#work">My Work</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
-        <h1><i class="fas fa-laptop-code"></i> Hello, my name is <span id="kristi">Kristi</span> <span id="delfino">Delfino</span></h1>
-        <h2>I am a web developer and designer in New Jersey</h2>
+        <div id="hero-main">
+            <h1><i class="fas fa-laptop-code"></i>  Hello, my name is <span id="kristi">Kristi</span> <span id="delfino">Delfino</span></h1>
+            <h2>I am a web developer and designer in New Jersey</h2>
+        </div>
     </header>
 
-    <main>
+    <main id="main-page">
         <section id="work">
-            <div class="full-width row">
-                <h3>My Work</h3>
-                <div class="half-width left">
-                    <img src="img/jubilee-thumbnail.png" alt="Jubilee Austen project">
-                </div>
-                <div class="half-width right text">
-                    <h4>Jubilee Austen</h4>
-                    <p>As a part of my coursework, I made this simple landing page for an imaginary web developer. It features a navigation bar and several sections.</p>
-                </div>
-            </div>
-            <div class="full-width row">
-                <div class="half-width left text">
-                    <h4>Rogue Pickings</h4>
-                    <p>For the Rogue Pickings project, I coded the layout and text from design specs. This fictional company features different layout styles and navigation.</p>
-                </div>
-                <div class="half-width right">
-                    <img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings Project">
-                </div>
-            </div>
-            <div class="full-width row">
-                <div class="half-width left">
-                    <img src="img/clyde-sam-thumbnail.png" alt="Clyde & Sam project">
-                </div>
-                <div class="half-width right">
-                    <div class="text">
-                    <h4>Clyde & Sam</h4>
-                    <p>I made this website for my dogs as a way to experiment with responsive design features. It includes scaling text, break points for different screen sizes, and a masonry-inspired image gallery.</p>
-                </div>
+            <div class="work-container">
+                 <h3>My Work</h3>
+                 <div class="project-wrapper">
+                        <div class="project-image">
+                            <a href="fylo/index.html" target="_blank"><img src="img/fylo-thumbnail.jpg" alt="Fylo"></a>
+                        </div>
+                        <div class="project-text">
+                            <p>The <strong>Fylo</strong> project is a one-page landing site designed by <a href="http://frontendmentor.com" target="_blank">Frontend Mentor</a> as a coding challenge. I coded this mobile-first, with full responsiveness at tablet and desktop sizes. </p>
+                        </div>
+                    </div>
+                    <div class="project-wrapper">
+                        <div class="project-image">
+                            <a href="accelerate/index.html" target="_blank"><img src="img/accelerate-thumbnail.jpg" alt="accelerate"></a>
+                        </div>
+                        <div class="project-text">
+                            <p><strong>Accelerate</strong> is a website for an imaginary marketing company. It's a Wordpress site and features a custom theme and custom post and page types. I added responsive breakpoints so that it's mobile-friendly.</p>
+                        </div>
+                    </div>
+                    <div class="project-wrapper">
+                        <div class="project-image">
+                            <a href="unplugged/index.html" target="_blank"><img src="img/unplugged-thumbnail.jpg" alt="unplugged"></a>
+                        </div>
+                        <div class="project-text">
+                            <strong>Unplugged</strong> is a fictional nature retreat. This Wordpress site is coded with HTML and CSS and is fully responsive.
+                        </div>
+                    </div>  
+                <div class="work-content button">
+                    <a href="projects/index.html"><button>See more!</button></a>
                 </div>
             </div>
         </section>
 
+        <section id="services">
+            <div class="services-container">
+                <h3>Services</h3>
+                <div class="services-content">
+                    <p class="icon"><i class="fas fa-code"></i></p>
+                    <h4>Website Creation / Redesign</h4>
+                    <p>Don't have a website yet? Perfect! Already have a site but think it needs an upgrade? Great! We'll work together to bring your vision to life.</p>
+                </div>
+                <div class="services-content">
+                    <p class="icon"><i class="fas fa-pencil-alt"></i></p>
+                    <h4>Content Creation</h4>
+                    <p>If you have ideas for your website but aren't exactly sure what to say, I'll write it for you!.</p>
+                </div>
+                <div class="services-content">
+                    <p class="icon"><i class="far fa-comments"></i></p>
+                    <h4>Language Services</h4>
+                    <p>Reaching a multilingual audience can be key to expanding your client base. Make a second version of your website in Spanish or French.</p>
+                </div>
+                <div class="services-content">
+                    <p class="icon"><i class="fas fa-search-dollar"></i></p>
+                    <h4>SEO</h4>
+                    <p>Search Engine Optimization can be the difference between being at the top of a Google search or pages down.</p>
+                </div>
+                <div class="services-content">
+                    <p class="icon"><i class="fas fa-hands-helping"></i></p>
+                    <h4>Consultation</h4>
+                    <p>Want to do it yourself but can't figure out how? Just have a few questions? Let me show you! Hourly rates available.</p>
+                </div>
+                <div class="services-content">
+                    <p class="icon"><i class="fas fa-calendar-alt"></i></p>
+                    <h4>Monthly Packages</h4>
+                    <p>Let me take care of the details, from updates to tech troubleshooting to maintenance, so you can focus on growing your business.</p>
+                </div>
+                <div class="services-content button">
+                    <a href="services/index.html"><button>Learn more!</button></a>
+                </div>
+            </div>
+        </section>
+                
         <section id="about">
-                <div class="full-width">
-                    <h3>About Me</h3>
-                    <div class="half-width left">
-                        <img src="img/bitmoji-me.png" alt="kristi as a bitmoji">
-                    </div>
-                    <div class="half-width right">
-                        <p>After a long career in education, I decided I needed a change. I enrolled in some courses, and here I am! I am passionate about creating clean, responsive websites.</p>
-                        <p>When I'm not coding something cool, you can find me in a random university classroom (old habits die hard!), hanging out with my dogs, or enjoying a good book.</p> 
-                    </div>
+            <div class="about-container">
+                <h3>About Me</h3>
+                <div class="about-content">
+                    <img src="img/bio_main.jpg" alt="kristi as a bitmoji">
                 </div>
-            </section>
-
-        <section id="contact">
-            <div class="full-width">
-                <h3>Contact Me</h3>
-                <div class="third-width">
-                    <h4>Hire me</h4>
-                    <p><i class="fas fa-mobile-alt"></i> (973) 619-9121</p>
-                    <p><i class="far fa-envelope"></i> <a href="mailto:kristi.delfino@gmail.com">kristi.delfino@gmail.com</a></p>
+                <div class="about-content">
+                    <p>After a long career in education, I decided I needed a change. I enrolled in some courses, and here I am! I am passionate about creating clean, responsive websites.</p>
+                    <p>When I'm not coding something cool, you can find me in a random university classroom (old habits die hard!), hanging out with my dogs, or enjoying a good book.</p> 
                 </div>
-                <div class="third-width">
-                    <h4>Follow me</h4>
-                    <a href="https://github.com/kristidelfino" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/kristidelfino/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="http://www.twitter.com/kristidelfino"  target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-                <div class="third-width">
-                    <h4>Let's meet!</h4>
-                    <p>If you're in northern New Jersey, let's get together for a coffee and a chat!</p>
+                <div class="about-content button">
+                    <a href="about/index.html"><button>Learn more!</button></a>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <p>Copyright 2020 | Kristi Delfino</p>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <h3>Interested in working together?</h3>
+            <div class="footer-content">
+                <h4>Contact me</h4>
+                <p><i class="fas fa-mobile-alt"></i> (973) 619-9121</p>
+                <p><i class="far fa-envelope"></i> <a href="mailto:kristi.delfino@gmail.com">kristi.delfino@gmail.com</a></p>
+            </div>
+            <div class="footer-content">
+                <h4>Follow me</h4>
+                <a href="https://github.com/kristidelfino" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kristidelfino/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="http://www.twitter.com/kristidelfino"  target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer-content">
+                <h4>Tell me about your project</h4>
+                <p>If you're in northern New Jersey, let's get together for a coffee and a chat!</p>
+            </div>
+        </div>
     </footer>
+    <section id="copyright">
+        <p>Copyright 2020 | Kristi Delfino</p>
+    </section>
+    
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+            
+        navBarToggle.addEventListener('click', function () {        
+            mainNav.classList.toggle('active');
+        });
+        </script>
 </body>
 </html>
